@@ -1,0 +1,8 @@
+{
+    "config": {
+        "vendor-dir": "library/"
+    },
+    "require": {
+        "zendframework/zendframework": "^2.5"
+    }
+}
