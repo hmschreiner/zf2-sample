@@ -1,7 +1,5 @@
 <?php
 
-ini_set("display_errors", 1);
-
 /**
  * This makes our life easier when dealing with paths. Everything is relative
  * to the application root now.
@@ -15,7 +13,7 @@ if (php_sapi_name() === 'cli-server' && is_file(__DIR__ . parse_url($_SERVER['RE
 }
 
 // Autoloader
-include('library/Zend/Loader/AutoloaderFactory.php');
+include('library/autoload.php');
 
 Zend\Loader\AutoloaderFactory::factory(array(
     'Zend\Loader\StandardAutoloader' => array(
