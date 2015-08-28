@@ -13,3 +13,5 @@ A Zend Framework 2 sample folder structure for projects.
 * scripts/: This directory contains maintenance and/or build scripts. Such scripts might include command line, cron, or phing build scripts that are not executed at runtime but are part of the correct functioning of the application.
 * temp/: The temp/ folder is set aside for transient application data.
 * tests/: This directory contains application tests.
+
+More info about folders: http://framework.zend.com/manual/2.0/en/ref/project.structure.html
