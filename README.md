@@ -14,4 +14,13 @@ A Zend Framework 2 sample folder structure for projects.
 * temp/: The temp/ folder is set aside for transient application data.
 * tests/: This directory contains application tests.
 
-More info about folders: http://framework.zend.com/manual/2.0/en/ref/project.structure.html
+More info about folder structure: http://framework.zend.com/manual/2.0/en/ref/project.structure.html
+
+## Installation
+Clone this repo:
+
+    git clone https://github.com/hmschreiner/zf2-sample.git
+    
+Install dependencies (via composer):
+
+    composer install
